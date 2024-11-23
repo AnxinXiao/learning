@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Shaw的前端学习之旅</title><meta name="description" content="Shaw的前端学习之旅">
+    <link rel="preload" href="/learning/assets/style-B1Ak2Cad.css" as="style"><link rel="stylesheet" href="/learning/assets/style-B1Ak2Cad.css">
+    <link rel="modulepreload" href="/learning/assets/app-BGpIjli9.js"><link rel="modulepreload" href="/learning/assets/404.html-BQqBmx6H.js">
+    <link rel="prefetch" href="/learning/assets/get-started.html-C6B6PGNf.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-B9O493Y8.js" as="script"><link rel="prefetch" href="/learning/assets/Index.html-dJjdy_Uz.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-DPCt4J6A.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-DKBJkJ39.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-Cqkd1_-Y.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-HAGNSagT.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-90lpcVDr.js" as="script"><link rel="prefetch" href="/learning/assets/index.html-DPQjVHVq.js" as="script"><link rel="prefetch" href="/learning/assets/setupDevtools-7MC2TMWH-Cy2_jG9P.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec61cd3c><main class="page" data-v-ec61cd3c><div class="theme-default-content" vp-content data-v-ec61cd3c><h1 data-v-ec61cd3c>404</h1><blockquote data-v-ec61cd3c>There&#39;s nothing here.</blockquote><a class="route-link" href="/learning/" data-v-ec61cd3c>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/learning/assets/app-BGpIjli9.js" defer></script>
+  </body>
+</html>
